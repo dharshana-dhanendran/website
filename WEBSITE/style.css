@@ -1,0 +1,139 @@
+
+.gird_item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container{
+    margin-bottom: 30px;
+}
+.hero_section {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+  }
+  .lg_text{
+    font-size: 30px;
+  }
+  .black_box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .black_box h2 span {
+    color: #ff0000;
+  }
+  
+  /* Work section */
+  .work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+  }
+.card{
+    max-width: 120px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px brown;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1,1,0.3);
+    transition: 0.2s case-in-out;
+
+}
+h1{
+    font-size:100px;
+    text-align: center;
+}
+.card{
+    width:100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.card img{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+}
+.card_content{
+    padding:20px;
+}
+.card_content h3{
+    margin-top:10px;
+}
+.bottom_section{
+    display: flex;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+.contact
+.about{
+    min-height:100px ;
+    padding: 12px;
+    color: aliceblue;
+
+}
+.about{
+    background-color: beige;
+}
+.contact{
+    background-color: blueviolet;
+}
+.about p
+.contact p{
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:black;
+    padding: 20px;
+    color: azure;
+}
+.about h2
+.contact h2{
+    font-size: 70px;
+    font-weight:300;
+}
+.image_container img {
+    max-width: 100%;
+    max-height:50px;
+  }
+@media(max-width:680px){
+    .hero_section{
+        min-height: 50vh;
+    }
+    .test_container{
+        padding:10px 0;
+        text-align: center;
+    }
+    .lg_text{
+        font-size: 25px;
+    }
+    .black_box h2{
+        font-size: 25px;
+    }
+    .black_box h2 span{
+        font-weight: 400;
+        font-size: 34px;
+    }
+    .bottom_section{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .about h2,
+    .contact h2{
+        font-size: 32px;
+    }
+}
